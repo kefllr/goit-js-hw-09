@@ -1,3 +1,5 @@
+import SimpleLightbox from "simplelightbox/dist/simple-lightbox.esm";
+import "simplelightbox/dist/simple-lightbox.min.css";
 const images = [
     {
       preview:
@@ -84,5 +86,4 @@ const fragmentImg  = document.createDocumentFragment();
  })
 galleryContainer.appendChild(fragmentImg)
 const lightbox = new SimpleLightbox(`.gallery a`, {captionDelay:250, captionsData:`alt`});
-import SimpleLightbox from "simplelightbox/dist/simple-lightbox.esm";
-import "simplelightbox/dist/simple-lightbox.min.css";
+
